@@ -1,0 +1,32 @@
+{
+    "name": "cluster-file-writer",
+    "version": "0.0.1",
+    "description": "write to a single file from a cluster",
+    "keywords": ["cluster", "logger", "filesystem", "file"],
+    "main": "lib/ClusterFileWriter.js",    
+    "author": {
+        "name": "Yaniv Kessler"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.co/yanush/cluster-file-writer.git"
+    },
+    "bin": { 
+        "webstress": "./index.js"
+    },
+    "bugs": {
+        "url": "http://github.com/yanush/cluster-file-writer/issues"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "https://raw.github.com/yanush/cluster-file-writer/master/LICENSE"
+        }
+    ],
+    "devDependencies": {        
+    	"byline": "*"
+    },
+    "engine": {
+        "node": ">=0.8"
+    }
+}
