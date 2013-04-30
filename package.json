@@ -1,9 +1,9 @@
 {
     "name": "cluster-file-writer",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "write to a single file from a cluster",
     "keywords": ["cluster", "logger", "filesystem", "file"],
-    "main": "./lib/ClusterFileWriter.js",    
+    "main": "index.js",    
     "author": {
         "name": "Yaniv Kessler"
     },
