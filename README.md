@@ -1,5 +1,5 @@
-WebStress tool
-==============
+Cluster file writer
+===================
 
 ###Install
 
