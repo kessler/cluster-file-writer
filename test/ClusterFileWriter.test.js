@@ -23,10 +23,17 @@ var expectedMessages = settings.workers * settings.batchSize * settings.numberOf
 
 var lastMW = 0;
 
+// setTimeout(function () {
+// 	console.log('switching files');
+// 	writer.setupFile('test2.log');
+
+// }, 10000);
+
 var ref = setInterval(function() {
 	if (lastMW > 0) {
 		console.log('%s per second, total of %s out of %s', writer.messagesWritten - lastMW, writer.messagesWritten, expectedMessages);
 	}
+
 	
 	lastMW = writer.messagesWritten;
 
