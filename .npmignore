@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 .git*
 test/test.log
+test/test2.log
+test/deathtest.log

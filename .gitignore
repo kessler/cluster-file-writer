@@ -1,2 +1,4 @@
 node_modules
 test/test.log
+test/test2.log
+test/deathtest.log
