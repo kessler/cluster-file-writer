@@ -17,12 +17,20 @@ cluster.setupMaster({
 	exec : "ClusterFileWriter.test.Worker.js"              
 });
 
-var settings = { batchSize: 100, numberOfBatches: 100, workers: 4 };
+var settings = { batchSize: 2000, numberOfBatches: 100, workers: 4 };
 
 var expectedMessages = settings.workers * settings.batchSize * settings.numberOfBatches
 
+var lastMW = 0;
+
 var ref = setInterval(function() {
-	console.log(writer.messagesWritten);
+	if (lastMW > 0) {
+		console.log('%s per second, total of %s out of %s', writer.messagesWritten - lastMW, writer.messagesWritten, expectedMessages);
+	}
+	
+	lastMW = writer.messagesWritten;
+
+	//console.log(writer.messagesWritten);
 
 	if (writer.messagesWritten === expectedMessages) {
 		clearInterval(ref);
