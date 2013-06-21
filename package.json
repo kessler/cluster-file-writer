@@ -1,6 +1,6 @@
 {
     "name": "cluster-file-writer",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "write to a single file from a cluster",
     "keywords": ["cluster", "logger", "filesystem", "file"],
     "main": "index.js",    
@@ -9,24 +9,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://github.co/yanush/cluster-file-writer.git"
-    },
-    "bin": { 
-        "webstress": "./index.js"
-    },
+        "url": "http://github.co/kessler-y/cluster-file-writer.git"
+    },    
     "bugs": {
-        "url": "http://github.com/yanush/cluster-file-writer/issues"
+        "url": "http://github.com/kessler-y/cluster-file-writer/issues"
     },
     "licenses": [
         {
         "type": "MIT",
-        "url": "https://raw.github.com/yanush/cluster-file-writer/master/LICENSE"
+        "url": "https://raw.github.com/kessler-y/cluster-file-writer/master/LICENSE"
         }
     ],
     "devDependencies": {        
     	"byline": "*"
     },
     "engine": {
-        "node": ">=0.8"
+        "node": ">=0.10"
     }
 }
