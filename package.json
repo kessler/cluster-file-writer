@@ -1,6 +1,6 @@
 {
     "name": "cluster-file-writer",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "write to a single file from a cluster",
     "keywords": ["cluster", "logger", "filesystem", "file"],
     "main": "index.js",
