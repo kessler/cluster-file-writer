@@ -3,24 +3,24 @@
     "version": "0.0.8",
     "description": "write to a single file from a cluster",
     "keywords": ["cluster", "logger", "filesystem", "file"],
-    "main": "index.js",    
+    "main": "index.js",
     "author": {
         "name": "Yaniv Kessler"
     },
     "repository": {
         "type": "git",
-        "url": "http://github.co/kessler-y/cluster-file-writer.git"
-    },    
+        "url": "http://github.co/kessler/cluster-file-writer.git"
+    },
     "bugs": {
-        "url": "http://github.com/kessler-y/cluster-file-writer/issues"
+        "url": "http://github.com/kessler/cluster-file-writer/issues"
     },
     "licenses": [
         {
         "type": "MIT",
-        "url": "https://raw.github.com/kessler-y/cluster-file-writer/master/LICENSE"
+        "url": "https://raw.github.com/kessler/cluster-file-writer/master/LICENSE"
         }
     ],
-    "devDependencies": {        
+    "devDependencies": {
     	"byline": "*"
     },
     "engine": {
