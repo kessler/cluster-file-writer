@@ -32,10 +32,13 @@ in worker
 	worker.write('yey!');
 ```
 
-Data integrity tests are included 
+Data integrity tests are included
 
 ###TODO:
-Worker death tests need to be perfected
 File name change mid flight needs a test
-Backpressure in scenario where master pumps a lot of data to workers 
 
+Backpressure in scenario where master pumps a lot of data to workers
+
+Rewrite tests with mocha
+
+Worker death tests need to be perfected
