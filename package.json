@@ -1,29 +1,35 @@
 {
-    "name": "cluster-file-writer",
-    "version": "0.0.8",
-    "description": "write to a single file from a cluster",
-    "keywords": ["cluster", "logger", "filesystem", "file"],
-    "main": "index.js",
-    "author": {
-        "name": "Yaniv Kessler"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.co/kessler/cluster-file-writer.git"
-    },
-    "bugs": {
-        "url": "http://github.com/kessler/cluster-file-writer/issues"
-    },
-    "licenses": [
-        {
-        "type": "MIT",
-        "url": "https://raw.github.com/kessler/cluster-file-writer/master/LICENSE"
-        }
-    ],
-    "devDependencies": {
-    	"byline": "*"
-    },
-    "engine": {
-        "node": ">=0.10"
+  "name": "cluster-file-writer",
+  "version": "0.0.10",
+  "description": "write to a single file from a cluster",
+  "keywords": [
+    "cluster",
+    "logger",
+    "filesystem",
+    "file"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "Yaniv Kessler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.co/kessler/cluster-file-writer.git"
+  },
+  "bugs": {
+    "url": "http://github.com/kessler/cluster-file-writer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/kessler/cluster-file-writer/master/LICENSE"
     }
+  ],
+  "devDependencies": {
+    "byline": "*"
+  },
+  "engine": {
+    "node": ">=0.10"
+  },
+  "dependencies": {}
 }
