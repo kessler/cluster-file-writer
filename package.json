@@ -1,6 +1,6 @@
 {
   "name": "cluster-file-writer",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "write to a single file from a cluster",
   "keywords": [
     "cluster",
