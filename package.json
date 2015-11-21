@@ -31,5 +31,7 @@
   "engine": {
     "node": ">=0.10"
   },
-  "dependencies": {}
+  "dependencies": {
+    "byline": "^4.2.1"
+  }
 }
